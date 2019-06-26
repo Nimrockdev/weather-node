@@ -23,14 +23,11 @@ let getInfo = async(direccion) => {
         var coors = await lugar.getLugarLatLng(direccion);
         let temp = await clima.getClima(coors.lat, coors.lng);
 
-        // return temp;
-
         return (`El clima en ${coors.direccion} es de ${temp}`);
     } catch (e) {
         return (`No se puede determinar el clima para ${direccion}`);
     }
 }
-
 
 getInfo(argv.direccion)
     .then(mensaje => console.log(mensaje))
