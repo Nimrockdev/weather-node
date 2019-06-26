@@ -32,30 +32,3 @@ let getInfo = async(direccion) => {
 getInfo(argv.direccion)
     .then(mensaje => console.log(mensaje))
     .catch(e => console.log(e));
-
-// function Funcion1() {
-//     console.log('TEST: Pulsamos Botón Función 1');;
-// }
-
-// Funcion1();
-
-
-//Ejemplo: GET http://localhost:8080/items
-// app.get('/Weather', function(req, res, next) {
-//     var respuesta = 'aaa';
-//     if (req.query.Descripcion) {
-//         next();
-
-//         getInfo(argv.direccion)
-//             //     .then(mensaje => console.log(mensaje))
-//             //     .catch(e => console.log(e));
-
-//     }
-//     res.send(req.query.Descripcion);
-//     //console.log(req);
-
-// });
-
-// var server = app.listen(8080, function() {
-//     console.log('Server is running ...');
-// });
