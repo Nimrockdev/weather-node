@@ -16,7 +16,7 @@ request o axios(utiliza promesas)
 #git 
 git add .
 git commit -m "Commit inicial"
-git remote add origin https://github.com/jsg8405/weather-node.git
+git remote add origin https://github.com/nimrockdev/weather-node.git
 git  push -u origin master
 git tag -a v1.0.0 -m "Tag 1"
 git push --tags
